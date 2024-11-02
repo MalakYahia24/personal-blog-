@@ -1,0 +1,52 @@
+.containerhome {
+    border: solid 1px rgb(218, 220, 222);   
+}
+
+
+.first,
+.head,
+.post,
+.social {
+    border-bottom: solid 1px rgb(218, 220, 222) ;
+}
+
+
+.head img {
+    height: 80%;
+    width: 60%;
+}
+
+.head h1 {
+    color: #3b3939;
+}
+
+
+.head p {
+    color: #3b3939;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+
+.social  > ul > li {
+   padding-left: 20px;
+   font-size: 25px;
+}
+
+
+.social > ul > li > a {
+    color: #342749;
+}
+
+
+.social > ul > li > a:hover,
+.view div a:hover {
+    color: #5e4685;
+}
+
+
+.view div a {
+    color: #342749;
+    font-size: 15px;
+}
